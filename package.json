@@ -1,0 +1,21 @@
+{
+  "name": "marble-racing-service-client-cli",
+  "version": "1.0.0",
+  "description": "node client for demo marble racing socket",
+  "main": "index.js",
+  "repository": "https://git3.nexdev.net/rd/research/marble-racing-service-client-cli.git",
+  "author": "george.phung <george.phung@starixsoft.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}
